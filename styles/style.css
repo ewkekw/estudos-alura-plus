@@ -23,12 +23,21 @@ body{
     background-image: url("/assets/Background.png");
     background-size: contain;
     background-repeat: no-repeat;
+    text-align: center;
+}
+
+.container__caixa{
+    margin: 0em, 6em;
 }
 
 .container{
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
+}
+
+.container__imagem{
+    margin: 1em 0em 2em 0em;
 }
 
 .container__titulo{
