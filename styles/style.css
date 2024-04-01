@@ -23,11 +23,12 @@ body{
     background-image: url("/assets/Background.png");
     background-size: contain;
     background-repeat: no-repeat;
+    align-items: center;
     text-align: center;
 }
 
 .container__caixa{
-    margin: 0em, 6em;
+    margin: 0 6em;
 }
 
 .container{
@@ -37,7 +38,7 @@ body{
 }
 
 .container__imagem{
-    margin: 1em 0em 2em 0em;
+    margin: 1em 0 2em 0;
 }
 
 .container__titulo{
@@ -52,6 +53,7 @@ body{
     border-radius: 8px;
     padding: 1em;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao__secundario{
