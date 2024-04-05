@@ -94,3 +94,35 @@ body{
     display: inline-block;
     margin-top: 1em;
 }
+
+.dispositivos{
+    text-align: center;
+}
+
+.dispositivos__titulo{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.dispositivos__lista{
+    font-size: 32px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 5%;
+    margin: 2em 0 5em 0;
+}
+
+.rodape{
+    text-align: center;
+    
+}
+
+.rodape__link{
+
+}
+
+.rodape__texto{
+    
+}
